@@ -1,5 +1,5 @@
 user_input = input('Введите строку ')
-palindrom = user_input[::-1]
+palindrom = user_input[::-1] #Переворот строки
 if palindrom == user_input:
     print(str(user_input) + ' является палиндромом')
 else:
