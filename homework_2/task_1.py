@@ -4,6 +4,7 @@
 #1. Сколько раз каждое слово встречается в тексте и стройте словарь {слово: количество}.
 #2. Количество уникальных слов.
 user_input = input('Введите строку ')
+user_input = user_input.lower()
 word_list = user_input.split()
 dct_count = {} #Создание пустого словаря
 unique_words = 0
