@@ -16,5 +16,3 @@ for word in word_list:
         unique_words +=1
 print(dct_count)
 print('Количество уникальных слов ' + str(unique_words))
-
-    
