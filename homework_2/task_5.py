@@ -8,4 +8,3 @@ if len(user_input_1) == len(user_input_2) and set_of_symbols_1 == set_of_symbols
      print('Слова ', user_input_1, ' и ', user_input_2, ' являются анаграммами')
 else:
     print('Слова ', user_input_1, ' и ', user_input_2, ' не являются анаграммами')
-#print(set_of_symbols_1, set_of_symbols_2)
