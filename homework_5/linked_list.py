@@ -126,10 +126,10 @@ class LinkedListIterator:
         self.current = self.current.next
         return value
 
-new_list = LinkedList()
-new_list.append(1)
-new_list.append(2)
-new_list.append(3)
+#new_list = LinkedList()
+#new_list.append(1)
+#new_list.append(2)
+#new_list.append(3)
 
 #print(new_list[0])  
 #print(new_list[2]) 
@@ -139,5 +139,5 @@ new_list.append(3)
 #except IndexError as e:
 #    print(e) 
 
-for item in new_list:
-    print(item)
+#for item in new_list:
+#    print(item)
